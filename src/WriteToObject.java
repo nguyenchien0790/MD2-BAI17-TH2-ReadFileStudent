@@ -6,11 +6,11 @@ public class WriteToObject {
     public static void main(String[] args) {
         String PATH_FILE = "D:\\IdeaProjects\\MD2_B17_TH2_ReadFileStudent\\src\\student.txt";
         List<Student> students = new ArrayList<>();
-        students.add(new Student(1,"Lê Thị A", "Lào Cai"));
-        students.add(new Student(2,"Lê Thị B", "Lai Châu"));
-        students.add(new Student(3,"Lê Thị C", "Hải Dương"));
-        students.add(new Student(4,"Lê Thị D", "Hà Tĩnh"));
-        students.add(new Student(5,"Lê Thị E", "Tây Nguyên"));
+        students.add(new Student(1,"AAA", "VietNam"));
+        students.add(new Student(2,"BBB", "England"));
+        students.add(new Student(3,"CCC", "Mexico"));
+        students.add(new Student(4,"DDD", "Japan"));
+        students.add(new Student(5,"EEE", "Indo"));
         writeToFile(PATH_FILE,students);
         List<Student> studentDataFromFile = readDataFromFile(PATH_FILE);
         for (Student student:
